@@ -1,0 +1,19 @@
+.container {
+  /* width: 50vw; */
+}
+
+#bio_pic {
+  border-radius: 2%;
+  /*
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+  */
+}
+
+#bio_paragraph {
+  /*
+  width: 50%;
+  margin: auto;
+  */
+}
