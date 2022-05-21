@@ -1,5 +1,7 @@
-.container {
-  /* width: 50vw; */
+.project_photo {
+  display: block;
+  margin: auto;
+  width: 60%;
 }
 
 #bio_pic {
