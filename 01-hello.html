@@ -26,6 +26,11 @@
           <li class="nav-item">
             <a class="nav-link" href="#work"> Work </a>
           </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#contact"> Contact </a>
+          </li>
+
         </ul>
       </nav>
 
@@ -45,16 +50,16 @@
         </div>
       </div>
 
-      <div id="projects" class="row mb-4 pt-5">
+      <div id="projects" class="row mb-4 pt-5 pb-5">
         <div class="col-12 mb-4">
           <h1 class="fs-1">Projects</h1>
         </div>
 
           <div class="col-lg-4 mb-5">
-            <img src="./blog-svgrepo-com.svg" id="" class="rounded project_photo" alt="">
+            <img src="./photos/blog-svgrepo-com.svg" id="" class="rounded project_photo" alt="">
           </div>
           <div class="col-lg-8 mb-5 d-flex align-items-end">
-            <div>
+            <div class="bg-light p-3">
               <h6>Flask Application</h6>
               <p id="description_1"></p>
               <a class="btn btn-primary" href="https://github.com/dannyglv182/FlaskApp" target="_blank">Link</a>
@@ -62,10 +67,10 @@
           </div>
 
           <div class="col-lg-4 mb-5">
-            <img src="./amusement-park-video-game-svgrepo-com.svg" class="rounded project_photo" alt="">
+            <img src="./photos/amusement-park-video-game-svgrepo-com.svg" class="rounded project_photo" alt="">
           </div>
           <div class="col-lg-8 mb-5 d-flex align-items-end">
-            <div>
+            <div class="bg-light p-3">
               <h6>Connect Four</h6>
               <p id="description_2"></p>
               <a class="btn btn-primary" href="#">Link</a>
@@ -73,18 +78,18 @@
           </div>
 
           <div class="col-lg-4 mb-5 ">
-            <img src="./amusement-park-video-game-svgrepo-com.svg" class="rounded project_photo" alt="">
+            <img src="./photos/database-svgrepo-com.svg" class="rounded project_photo" alt="">
           </div>
           <div class="col-lg-8 mb-5 d-flex align-items-end">
-            <div>
-              <h6>Connect Four</h6>
-              <p id="description_2"></p>
+            <div class="bg-light p-3">
+              <h6>Movie Database</h6>
+              <p id="description_3"></p>
               <a class="btn btn-primary" href="#">Link</a>
             </div>
           </div>
       </div>
 
-      <div id="work" class="row mt-4 mb-4 pb-2">
+      <div id="work" class="row mt-4 mb-4 pb-5">
         <div class="col-12 mb-4">
           <h1 class="fs-1">Experience</h1>
         </div>
@@ -142,11 +147,11 @@
         </div>
       </div>
 
-      <div id="contact" class="row mt-4 mb-4">
+      <div id="contact" class="row mt-4 mb-4 p-3 bg-light">
         <div class="col-12 mb-4">
           <h1 class="fs-1">Contact</h1>
         </div>
-        <div class="col-12">
+        <div class="col-md-6">
           <form>
             <div class="mb-3">
               <label for="email" class="form-label">Email address</label>
@@ -160,11 +165,14 @@
 
             <div class="mb-3">
               <label for="message" class="form-label">Message</label>
-              <input type="textarea" class="form-control" id="message">
+              <textarea class="form-control" id="message" rows="3"> </textarea>
             </div>
 
             <button type="button" class="btn btn-primary btn-lg">Send</button>
           </form>
+        </div>
+        <div class="col-md-6 d-flex align-items-center">
+          <img src="./photos/mail-svgrepo-com.svg" id="mail_photo"  class="d-sm-none d-md-block" alt="outgoing mail">
         </div>
       </div>
 

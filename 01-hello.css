@@ -1,7 +1,7 @@
 .project_photo {
   display: block;
   margin: auto;
-  width: 60%;
+  width: 45%;
 }
 
 #bio_pic {
@@ -11,6 +11,16 @@
   margin: auto;
   border-radius: 50%;
   */
+}
+
+#mail_photo {
+  display: block;
+  margin: auto;
+  width: 25%;
+}
+
+#projects {
+  border-bottom: 2px solid LightGrey;
 }
 
 #bio_paragraph {
