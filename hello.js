@@ -7,12 +7,13 @@ var text1 = document.createTextNode(`A Flask application where users can log in 
                                     `);
 
 
-var text2 = document.createTextNode(`A Connect Four game written in Python. Moves are played as row and column combinations and each match is played
-                                     against played against the computer. Pytest is used for testing.
+var text2 = document.createTextNode(`A Connect Four game written in Python.
+                                      Moves are played as row and column combinations and each match is played
+                                      against played against the computer. Pytest is used for testing.
                                     `);
 
 var text3 = document.createTextNode(`A PostgresSQL database built from a CSV file. The database contains entries for films and their associated data.
-                                     Psycopg2 and Pandas are used for the ETL process. 
+                                     Psycopg2 and Pandas are used for the ETL process. Team-Based project as part of CS 486.
                                     `);
 
 projectOneDesc.appendChild(text1);
