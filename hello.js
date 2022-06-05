@@ -12,10 +12,22 @@ var text2 = document.createTextNode(`A Connect Four game written in Python.
                                       against the computer. Pytest is used for testing.
                                     `);
 
-var text3 = document.createTextNode(`A PostgresSQL database built from a CSV file. The database contains entries for films and their associated data.
+var text3 = document.createTextNode(`A PostgresSQL database built from a CSV file. The database contains entries
+                                     for films and their associated data.
                                      Psycopg2 and Pandas are used for the ETL process. Team-Based project as part of CS 486.
                                     `);
 
 projectOneDesc.appendChild(text1);
 projectTwoDesc.appendChild(text2);
 projectThreeDesc.appendChild(text3);
+
+
+// Checks the input form to make sure values are present.
+function validate() {
+  var user_message = document.getElementById('message').value
+  console.log(user_message);
+  if (user_message == '' || user_message == ' ') {
+    alert('Please enter a message before sending.');
+    return false;
+  }
+}
