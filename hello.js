@@ -16,10 +16,10 @@ var text2 = document.createTextNode(`A Connect Four game written in Python.
                                     against the computer. Pytest is used for testing.
                                     `);
 
-var text3 = document.createTextNode(`A PostgresSQL database built from a CSV file.
-                                    The database contains entries for films and
-                                    their associated data. Psycopg2 and Pandas
-                                    are used for the ETL process. Team-Based project as part of CS 486.
+var text3 = document.createTextNode(`A Twilio application that sends a text from the browser.
+                                    A copy of the text is stored in a postgreSQL database and
+                                    the Spark micro framework is used along with Java to send
+                                    the message.
                                     `);
 
 projectOneDesc.appendChild(text1);
